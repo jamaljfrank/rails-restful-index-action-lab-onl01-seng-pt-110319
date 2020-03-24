@@ -2,6 +2,6 @@ class StudentController < ApplicationController
   
   
   get '/students' do 
-    index
+    render index
   end
 end
